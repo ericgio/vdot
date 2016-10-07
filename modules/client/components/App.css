@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font: 16px Helvetica, sans-serif;
+}
+
+/* 
+ * daniels.css
+ */
+
+.daniels .nav-tabs {
+  margin-bottom: 15px;
+}
+
+.daniels .tab-pane h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+
+/* Tables */
+.daniels table {
+  border: 1px solid #d7d7d7;
+  border-collapse: collapse;
+  font-size: 13px;
+  width: 100%;
+}
+
+.daniels th,
+.daniels td {
+  padding: 5px 0;
+  text-align: center;
+}
+
+.daniels th {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.daniels table th:last-child {
+  border-right: 0;
+}
+
+.daniels tr:nth-child(even) td {
+  background-color: #f3f6fa;
+}
+
+.daniels tr:hover td {
+  background-color: #e5edf8;
+}
+
+
+/**
+ * VDOT/Pace Table
+ */
+.daniels .header th,
+.daniels .distance th.lastCol {
+  border-right: 1px solid #d7d7d7;
+}
+
+.daniels table.paces th, 
+.daniels table.paces td {
+  width: 75px;
+}
+
+.daniels td.vdot {
+  font-weight: bold;
+}
+
+.daniels .scrollContent {
+  border: 1px solid #d7d7d7;
+  border-top: 0;
+  box-sizing: border-box; /* Fixes extra space from border */
+  -moz-box-sizing:border-box; /* Firefox */
+  -webkit-box-sizing:border-box; /* Safari */
+  height: 425px;
+  overflow: auto;
+  width: 100%;
+}
+
+.daniels .scrollContent table {
+  border: 0;
+}
