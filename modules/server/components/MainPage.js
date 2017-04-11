@@ -31,8 +31,8 @@ class HomePage extends React.Component {
           <script dangerouslySetInnerHTML={{ __html: "window.webpackManifest = " + JSON.stringify(webpackManifest) }}/>
           {styles.map(s => <link rel="stylesheet" key={s} href={s}/>)}
         </head>
-        <body>
-          <div id="app"/>
+        <body className="daniels">
+          <div id="app" />
           {scripts.map(s => <script key={s} src={s}/>)}
         </body>
       </html>

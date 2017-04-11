@@ -1,4 +1,8 @@
 {
+  "name": "vdot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
   "scripts": {
     "start": "heroku local -f Procfile.local",
     "build": "npm run build-assets && npm run build-lib",
@@ -25,6 +29,7 @@
     "express": "^4.13.4",
     "extract-text-webpack-plugin": "^1.0.1",
     "invariant": "^2.2.1",
+    "moment": "^2.15.1",
     "morgan": "^1.7.0",
     "postcss-loader": "^0.11.0",
     "react": "^15.1.0",
@@ -56,5 +61,11 @@
     "plugins": [
       "transform-object-assign"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericgio/vdot"
+  },
+  "author": "@ericgio",
+  "license": "MIT"
 }
